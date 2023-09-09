@@ -20,45 +20,45 @@
 			},
 			{
 				"requires": "$pocket_screen",
-				"$screen_content": "pocket_containers.small_chest_panel"
+				"$screen_content": "custom_pocket_containers.custom_chest_panel"
 			},
 			{ // 9 * 1
-				"requires": "(not (($container_title - $keyword1) = $container_title))",
+				"requires": "(not (($container_title - $keyword1) = $container_title)) and $desktop_screen",
 				"$root_panel_size": [ 184, 130 ],
 				"$panel_top_half_size": [ "100%", 42 ],
 				"$scrolling_panel_size": [ 170, 18 ],
 				"$screen_content": "custom_scroll_screen.custom_scroll_panel"
 			},
 			{ // 9 * 2
-				"requires": "(not (($container_title - $keyword2) = $container_title))",
+				"requires": "(not (($container_title - $keyword2) = $container_title)) and $desktop_screen",
 				"$root_panel_size": [ 184, 148 ],
 				"$panel_top_half_size": [ "100%", 60 ],
 				"$scrolling_panel_size": [ 170, 36 ],
 				"$screen_content": "custom_scroll_screen.custom_scroll_panel"
 			},
 			{ // 9 * 3
-				"requires": "(not (($container_title - $keyword3) = $container_title))",
+				"requires": "(not (($container_title - $keyword3) = $container_title)) and $desktop_screen",
 				"$root_panel_size": [ 184, 166 ],
 				"$panel_top_half_size": [ "100%", 78 ],
 				"$scrolling_panel_size": [ 170, 54 ],
 				"$screen_content": "custom_scroll_screen.custom_scroll_panel"
 			},
 			{ // 9 * 4
-				"requires": "(not (($container_title - $keyword4) = $container_title))",
+				"requires": "(not (($container_title - $keyword4) = $container_title)) and $desktop_screen",
 				"$root_panel_size": [ 184, 184 ],
 				"$panel_top_half_size": [ "100%", 96 ],
 				"$scrolling_panel_size": [ 170, 72 ],
 				"$screen_content": "custom_scroll_screen.custom_scroll_panel"
 			},
 			{ // 9 * 5
-				"requires": "(not (($container_title - $keyword5) = $container_title))",
+				"requires": "(not (($container_title - $keyword5) = $container_title)) and $desktop_screen",
 				"$root_panel_size": [ 184, 202 ],
 				"$panel_top_half_size": [ "100%", 114 ],
 				"$scrolling_panel_size": [ 170, 90 ],
 				"$screen_content": "custom_scroll_screen.custom_scroll_panel"
 			},
 			{ // 9 * 6
-				"requires": "(not (($container_title - $keyword6) = $container_title))",
+				"requires": "(not (($container_title - $keyword6) = $container_title)) and $desktop_screen",
 				"$root_panel_size": [ 184, 220 ],
 				"$panel_top_half_size": [ "100%", 132 ],
 				"$scrolling_panel_size": [ 170, 108 ],
