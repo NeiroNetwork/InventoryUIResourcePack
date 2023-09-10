@@ -24,37 +24,37 @@
 			},
 			{ // 9 * 1
 				"requires": "(not (($container_title - $keyword1) = $container_title)) and $desktop_screen",
-				"$root_panel_size": [ 184, 130 ],
+				"$root_panel_size": [ 176, 130 ],
 				"$panel_top_half_size": [ "100%", 42 ],
-				"$scrolling_panel_size": [ 170, 18 ],
+				"$scrolling_panel_size": [ 164, 20 ],
 				"$screen_content": "custom_scroll_screen.custom_scroll_panel"
 			},
 			{ // 9 * 2
 				"requires": "(not (($container_title - $keyword2) = $container_title)) and $desktop_screen",
-				"$root_panel_size": [ 184, 148 ],
+				"$root_panel_size": [ 176, 148 ],
 				"$panel_top_half_size": [ "100%", 60 ],
-				"$scrolling_panel_size": [ 170, 36 ],
+				"$scrolling_panel_size": [ 164, 38 ],
 				"$screen_content": "custom_scroll_screen.custom_scroll_panel"
 			},
 			{ // 9 * 3
 				"requires": "(not (($container_title - $keyword3) = $container_title)) and $desktop_screen",
-				"$root_panel_size": [ 184, 166 ],
+				"$root_panel_size": [ 176, 166 ],
 				"$panel_top_half_size": [ "100%", 78 ],
-				"$scrolling_panel_size": [ 170, 54 ],
+				"$scrolling_panel_size": [ 164, 56 ],
 				"$screen_content": "custom_scroll_screen.custom_scroll_panel"
 			},
 			{ // 9 * 4
 				"requires": "(not (($container_title - $keyword4) = $container_title)) and $desktop_screen",
-				"$root_panel_size": [ 184, 184 ],
+				"$root_panel_size": [ 176, 184 ],
 				"$panel_top_half_size": [ "100%", 96 ],
-				"$scrolling_panel_size": [ 170, 72 ],
+				"$scrolling_panel_size": [ 164, 74 ],
 				"$screen_content": "custom_scroll_screen.custom_scroll_panel"
 			},
 			{ // 9 * 5
 				"requires": "(not (($container_title - $keyword5) = $container_title)) and $desktop_screen",
-				"$root_panel_size": [ 184, 202 ],
+				"$root_panel_size": [ 176, 202 ],
 				"$panel_top_half_size": [ "100%", 114 ],
-				"$scrolling_panel_size": [ 170, 90 ],
+				"$scrolling_panel_size": [ 164, 92 ],
 				"$screen_content": "custom_scroll_screen.custom_scroll_panel"
 			},
 			{ // 9 * 6
