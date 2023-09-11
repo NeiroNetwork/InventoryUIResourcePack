@@ -11,6 +11,7 @@
 		"$keyword4": "§4§r§r§r§r§r§r§r§r§r§r",
 		"$keyword5": "§5§r§r§r§r§r§r§r§r§r§r",
 		"$keyword6": "§6§r§r§r§r§r§r§r§r§r§r",
+		"$keyword7": "§7§r§r§r§r§r§r§r§r§r§r",
 
 		"variables": [
 			{
@@ -59,9 +60,16 @@
 			},
 			{ // 9 * 6
 				"requires": "(not (($container_title - $keyword6) = $container_title)) and $desktop_screen",
+				"$root_panel_size": [ 176, 220 ],
+				"$panel_top_half_size": [ "100%", 132 ],
+				"$scrolling_panel_size": [ 164, 110 ],
+				"$screen_content": "custom_scroll_screen.custom_scroll_panel"
+			},
+			{ // 9 * 6 + scrollbar
+				"requires": "(not (($container_title - $keyword7) = $container_title)) and $desktop_screen",
 				"$root_panel_size": [ 184, 220 ],
 				"$panel_top_half_size": [ "100%", 132 ],
-				"$scrolling_panel_size": [ 170, 108 ],
+				"$scrolling_panel_size": [ 170, 110 ],
 				"$screen_content": "custom_scroll_screen.custom_scroll_panel"
 			}
 		]
