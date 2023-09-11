@@ -6,9 +6,7 @@
         "$item_collection_name": "container_items"
     },
 
-    "custom_pocket_container_grid@common.container_grid": {
-      "layer": 3,
-      "$item_collection_name": "container_items",
+    "custom_pocket_container_grid@custom_container_grid": {
       "grid_item_template": "common.pocket_ui_container_item"
     },
 
